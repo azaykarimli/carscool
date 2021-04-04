@@ -1,0 +1,48 @@
+body{
+   background-color: 	rgb(169,169,169); 
+}
+
+img{
+    border-radius: 1%;
+    margin: 1.5%;
+    width: 30%;
+    height: 25em;
+    object-fit: cover;
+}
+
+nav{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 1.5%;
+    
+}
+
+hr{
+   width: 50%;
+   text-align: left;
+   margin-left: 1.5%;
+   margin-bottom: 1.5%;
+   
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+.link{
+    font-size: 20px;
+    float: right;
+    text-transform: capitalize;
+}
+
+footer {
+    margin-right: 1.5%;
+    float: right;
+    text-transform: uppercase;
+    position: relative;
+    bottom:0; 
+}
