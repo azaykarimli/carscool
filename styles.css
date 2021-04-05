@@ -3,8 +3,9 @@ body{
 }
 
 img{
-    border-radius: 1%;
-    margin: 1.5%;
+    /* border-radius: 1%; */
+    /* margin: 1.5%; */
+    margin: calc(10%/6);
     width: 30%;
     height: 25em;
     object-fit: cover;
@@ -13,7 +14,7 @@ img{
 nav{
     text-transform: uppercase;
     font-weight: bold;
-    margin-left: 1.5%;
+    margin-left: calc(10%/6);
     
 }
 
@@ -21,7 +22,7 @@ hr{
    width: 50%;
    text-align: left;
    margin-left: 1.5%;
-   margin-bottom: 1.5%;
+  
    
 }
 
@@ -33,7 +34,7 @@ a:hover {
     text-decoration: underline;
   }
 
-.link{
+a{
     font-size: 20px;
     float: right;
     text-transform: capitalize;
